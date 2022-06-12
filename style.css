@@ -1,5 +1,59 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__inner {
+    background: url(./images/hors.JPG);
+    background-size: 1200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__photo {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header__title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.header__speciality {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 60px;
+    opacity: 0.8;
+}
+
+.header__contacts {
+    list-style: none;
+    background-color: rgba(250, 235, 215, 0.3);
+    max-width: 350px;
+    width: 100%;
+    padding: 5px;
+}
+
+.header__item {
+    font-weight: 600;
+    margin-bottom: 10px;
 }
